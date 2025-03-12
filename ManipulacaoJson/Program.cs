@@ -21,7 +21,7 @@ while (true)
             AdicionarProduto();
             break;
         case "3":
-            Console.WriteLine("Função em desenvolvimento...");
+            LerProdutos();
             break;
         case "4":
             Console.WriteLine("Saindo do programa...");
@@ -84,7 +84,7 @@ void AdicionarProduto()
     listaProdutos.Add(item2);
 }
 
-void lerProdutos()
+void LerProdutos()
 {
     if (listaProdutos.Count == 0)
     {
